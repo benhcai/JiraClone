@@ -1,9 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import DragAndDrop from "./components/DragAndDrop";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
     <div className="App">
+      {/* <Carousel /> */}
+      <DragAndDrop />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

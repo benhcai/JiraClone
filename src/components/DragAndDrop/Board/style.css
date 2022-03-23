@@ -1,0 +1,48 @@
+.DND-board {
+  display: grid;
+  grid-template: 1fr / auto;
+  grid-auto-flow: column;
+  background-color: rgb(41, 39, 39);
+  color: black;
+}
+
+.DND-list {
+  border: gray 1px solid;
+}
+
+.DND-list-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: gray 1px solid;
+  color: white;
+}
+
+.DND-list-heading--content {
+}
+
+.DND-list-items {
+  display: grid;
+  gap: 0px 0px;
+  justify-items: center;
+}
+
+.DND-list-item {
+  border: rgb(255, 255, 255) 2px solid;
+  width: 80%;
+  height: 120px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: rgb(240, 240, 240);
+}
+
+.DND-list-item:first-child {
+  margin-top: 20px;
+}
+
+.dragging {
+  visibility: hidden;
+}

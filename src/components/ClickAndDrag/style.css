@@ -1,0 +1,29 @@
+.ClickAndDrag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.board {
+  width: 90%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board_tables {
+  width: 90%;
+  height: 90%;
+  border: 1px solid white;
+  position: relative;
+}
+
+.board_task {
+  width: 170px;
+  height: 70px;
+  border: 1px solid white;
+  position: absolute;
+  left: 0px;
+}
